@@ -8,5 +8,4 @@
 
 **UM-A is an Alice style split keyboard with arrow cluster and macro keys along with encoder and OLED screen housed in 3D printed housings.**
 
-
 Available to on [Merge](https://mergedesign.store/)
