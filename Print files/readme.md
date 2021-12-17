@@ -11,7 +11,6 @@ There are 5 parts need to be printed in order to complete the build.
 
 
 ## **Recommended print setting**
-
 <a href="img/UMA_Print_Ori_A.jpg">
 <img src="img/UMA_Print_Ori_A.jpg" width="400">
 </a>
@@ -24,7 +23,8 @@ There are 5 parts need to be printed in order to complete the build.
 
 - 0.4mm Nozzle
 - 0.2mm layer height
-- ≥ 15% 
+- ≥ 15% infill
+
 All parts are designed to be printed with 0.4 nozzle at 0.2mm layer height without support, see print orientation.
 
 
