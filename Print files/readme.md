@@ -7,7 +7,7 @@ There are 5 parts need to be printed in order to complete the build.
 - Left cover / tented cover (UM-A_L_Cover_v11.STL / UM-A_R_Cover_Tented_v11.STL)
 - Right case ANSI / ISO (UM-A_R_Top_v11_ANSI.STL / UM-A_R_Top_v11_ISO.STL)
 - Right cover / tented cover (UM-A_L_Cover_11.STL / UM-A_R_Cover_Tented_v11.STL)
-- Knob (UM-A_Knob_v1)
+- Knob (UM-A_Knob_v1.STL)
 
 
 ## **Recommended print setting**

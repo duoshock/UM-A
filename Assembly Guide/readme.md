@@ -75,7 +75,7 @@ Insert it on the underside of the PCB and then solder.
 <img src="img/UMA_Asm_TRRS_B.jpg" width="400">
 </a>
 
-Place the jack on the underside of the PCB (the same side you just soldered sockets to) then solder.
+Place the jack on the underside of the PCB and solder.
 
 ## Encoder
 <a href="img/UMA_Asm_Encoder_A.jpg">
@@ -118,6 +118,22 @@ When installing screw-in stabiliser for Spacekey on the left half, use a washer/
 </a>
 
 Select one layout when soldering switches. Then insert switches to the plates and solder to the PCBs.
+
+
+## Soldering switches
+
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/JpV-eJNrXjk"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+Solder switches as you normally would with other keyboards.
+Here is a good tutorial by JUJU.
 
 ## LED
 <a href="img/UMA_Asm_LED.jpg">
