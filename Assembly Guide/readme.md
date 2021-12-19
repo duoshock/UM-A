@@ -122,15 +122,7 @@ Select one layout when soldering switches. Then insert switches to the plates an
 
 ## Soldering switches
 
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/JpV-eJNrXjk"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+[![Soldering switches](http://img.youtube.com/vi/JpV-eJNrXjk/0.jpg)](http://www.youtube.com/watch?v=JpV-eJNrXjk "How To Build Your Own Mechanical Keyboard! (With an EASY Soldering Tutorial!)")
 
 Solder switches as you normally would with other keyboards.
 Here is a good tutorial by JUJU.
