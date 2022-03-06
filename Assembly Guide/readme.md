@@ -33,7 +33,7 @@
 
 **22 x M3 5mm screws** (Only 20 are required, rest are spare)
 
-**10 x Rubber feet** (Only 8 are required, rest are spare)
+**8 x Rubber feet**
 
 ---
 
