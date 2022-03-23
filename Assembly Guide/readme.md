@@ -37,6 +37,25 @@
 
 ---
 
+## **READ THIS FIRST / FAQ** ##
+
+
+
+- *Why it disconnect when I plug in the TRRS cable?*
+
+    TRRS cable carries data and power to the other half. When plugging the cable into the TRRS jack, the ring that carries power makes contact with the data pin and short the MCU. In most cases, the MCU will be fine after disconnecting the power, but something it can corrupts the EEPROM. In rare instance, kills the MCU. 
+
+    **SO PLEASE DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED).**
+
+
+- *Why some keys are not registered on the right half when testing the PCB by connecting via USB cable?*
+
+    The Left and right sides have a different key matrix (i.e. different number of keys). The pre-flashed firmware is set as master left, so when testing the right side via USB, the computer registers it as the left side which has less key than the right side.
+
+    So it's normal to have some keys not registered on the right side when it is connected via USB. To perform a proper test, connect the right half via TRRS cable.
+
+---
+
 ## **Test the PCBs before soldering**
 
 <a href="img/UMA_Asm_TestPCB.jpg">
@@ -44,7 +63,9 @@
 </a>
 
 
-All PCBs are tested prior shipping, but it is good practice to make sure they are working before soldering. Both PCBs come pre-flashed Vial firmware, it should be recognised in Vial when connected to a computer. Plug in one half and test by shorting switch pins with tweezers. After testing one half, disconnect the first and test the other half. Don’t panic if the right side PCB outputs the wrong key for that switch location, as the firmware is set to left as master. As long as both halves produce some output you have verified the PCBs are working.
+All PCBs are tested prior shipping, but it is good practice to make sure they are working before soldering. Both PCBs come pre-flashed Vial firmware, it should be recognised in Vial when connected to a computer. Plug in one half and test by shorting switch pins with tweezers. After testing one half, disconnect the first and test the other half.
+
+**Don’t panic if the right side PCB outputs the wrong key or somee keys not registering, as the firmware is set to left as master. As long as both halves produce some output you have verified the PCBs are working.**
 
 ---
 
@@ -76,6 +97,8 @@ Insert it on the underside of the PCB and then solder.
 </a>
 
 Place the jack on the underside of the PCB and solder.
+
+>**DO NOT PLUG/UNPLUG TRRS CABLE WHEN POWER IS ON (I.E. WHEN USB CABLE IS CONNECTED), IT CAN SHORT THE CONTROLLER.**
 
 ## Encoder
 <a href="img/UMA_Asm_Encoder_A.jpg">
